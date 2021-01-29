@@ -1,0 +1,120 @@
+/* Selecting elements using the class value */
+.photo_box {
+    height: 250px;
+    width: 250px;
+    background-color: blueviolet;
+    border: 5px solid blue;
+    margin: 5px;
+    border-radius: 250px;
+    box-sizing: content-box;
+    box-shadow: 5px 10px 5px pink;
+    display: inline-block;
+
+}
+
+/* Selecting element using the id value */
+#box1 {
+    background-color: brown;
+    background-color: red;
+    background-image: url("../images/bilding.jpg");
+    background-repeat: space;
+}
+
+#box2 {
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+
+#box3 {
+    background-color: darkgoldenrod;
+
+}
+
+#box4 {
+    background-color: deeppink;
+}
+
+#box5 {
+    background-color: forestgreen;
+}
+
+#box6 {
+    background-color: mediumblue;
+}
+
+a:hover {
+    background-color: mediumspringgreen;
+}
+
+
+form input:active{
+    background-color: yellow;
+}
+
+a:visited{
+    color: red;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#company_header{
+    font-size: 35px;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 5px -10px 3px red;
+    text-indent: 0px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+ol{
+    list-style-type: lower-roman;
+    list-style-position: outside;
+    list-style: url("../images/blue_dot.png")lower-roman inside;
+}
+
+
+
+
+
+
+
+
+#container{
+    width: 85%;
+    margin: auto;
+}
+
+#main_image{
+    width: 100%;
+}
+
+table{
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px 7px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    nav a {
+        display: block;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+}
